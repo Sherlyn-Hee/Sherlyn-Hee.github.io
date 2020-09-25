@@ -1,0 +1,8 @@
+window.addEventListener("load", function(){
+    var preloader = document.querySelector(".preloader").classList.add("opacity-0");
+    setTimeout(function(){
+        document.querySelector(".preloader").getElementsByClassName.display = "none";
+    }, 1000);
+})
+
+//Original javascript code
